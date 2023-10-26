@@ -1,0 +1,37 @@
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 200px;
+    margin-left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    display: flex;
+
+}
+
+.header-image-container {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+img {
+    height: 300px;
+    width: 700px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 900px;
+}
