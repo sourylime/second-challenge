@@ -26,12 +26,14 @@ p {
 }
 
 img {
-    height: 300px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    margin-left: 900px;
+    margin-top: 0px;
+
+
 }
