@@ -13,10 +13,6 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    display: flex;
-
-}
 
 .header-image-container {
     margin-top: 0%;
@@ -44,7 +40,7 @@ img {
     width: 100%;
 }
 
-ul {
+.navbar {
     display: flex;
     flex-direction: row-reverse;
 
@@ -72,8 +68,6 @@ ul {
 
 li {
     float: right;
-
-
 }
 
 li a {
@@ -84,18 +78,21 @@ li a {
     text-decoration: underline;
     margin-top: 15px;
     margin-bottom: auto;
+
 }
+
 
 .about-me {
     width: 20%;
     background-color: #568667d3;
     color: #060606;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 20px;
     float: left;
-    box-sizing: border-box;
-}
 
+
+
+}
 
 .vertical-line {
     border-left: 6px solid #568667d3;
@@ -113,4 +110,83 @@ li a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.Work {
+    width: 20%;
+    background-color: #568667d3;
+    color: #060606;
+    margin-top: 40px;
+    margin-inline-start: 0%;
+    padding: 20px;
+    float: left;
+    flex-direction: row;
+
+}
+
+.wvl {
+    border-left: 6px solid #568667d3;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.wcontent {
+    width: 65%;
+    padding: 0px;
+    float: left;
+    margin-left: 300px;
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Contact-me {
+    width: 20%;
+    background-color: #568667d3;
+    color: #060606;
+    margin-top: 40px;
+    margin-inline-start: 0%;
+    padding: 20px;
+    float: left;
+    flex-direction: row;
+
+}
+
+.cvl {
+    border-left: 6px solid #568667d3;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.pcontent {
+    width: 65%;
+    padding: 0px;
+    float: left;
+    margin-left: 300px;
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    color: rgb(8, 8, 8);
+    list-style-type: none;
+    padding: 14px 16px;
+    text-decoration: underline;
+    margin-top: -150px;
+    margin-bottom: auto;
+    margin-left: 120px;
+}
+
+.contactinfo a {
+    color: black;
+    margin-top: 30px;
+    font-family: helvetica, arial, sans serif;
+    font-size: 25px;
 }
