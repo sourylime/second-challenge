@@ -156,9 +156,10 @@ li a {
 
 .cvl {
     border-left: 6px solid #568667d3;
-    height: 250px;
+    height: 100px;
     margin-left: 250px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .pcontent {
@@ -175,18 +176,55 @@ li a {
 .contactinfo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     color: rgb(8, 8, 8);
     list-style-type: none;
     padding: 14px 16px;
     text-decoration: underline;
-    margin-top: -150px;
+    margin-top: -80px;
     margin-bottom: auto;
-    margin-left: 120px;
+    margin-left: -150px;
 }
 
 .contactinfo a {
-    color: black;
+    color: #568667d3;
     margin-top: 30px;
     font-family: helvetica, arial, sans serif;
     font-size: 25px;
+
+}
+
+.main-box {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #c7f897d3;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: -250px;
+    text-align: center;
+    background-color: #c7f897d3;
+    border-radius: 5px;
+    display: block;
+}
+
+
+
+.main-box img {
+    max-width: 1000px;
+    max-height: 300px;
+    margin-top: -60px;
+}
+
+.text-overlay {
+    position: absolute;
+    background-color: #c8f897;
+    margin-top: -120px;
+    width: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #234500;
+}
+
+.main-box a {
+    width: 100%;
+    height: 100%;
 }
