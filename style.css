@@ -13,6 +13,10 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #f8f897;
+}
+
 
 .header-image-container {
     margin-top: 0%;
@@ -205,6 +209,12 @@ li a {
     background-color: #c7f897d3;
     border-radius: 5px;
     display: block;
+    transition: background-color 0.3s ease;
+}
+
+.main-box:hover {
+    background-color: #83a263;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
@@ -236,6 +246,12 @@ li a {
     margin-left: 400px;
     padding: 10px;
     background-color: #c8f897;
+    transition: background-color 0.3s ease;
+}
+
+.box1:hover {
+    background-color: #83a263;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .box1 a {
@@ -258,5 +274,157 @@ li a {
 .box1 img {
     height: 100px;
     width: 200px;
+
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 630px;
+    margin-top: -150px;
+    padding: 10px;
+    background-color: #c8f897;
+    transition: background-color 0.3s ease;
+}
+
+.box2:hover {
+    background-color: #83a263;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box2 p {
+    margin-top: -15px;
+}
+
+.box2 a {
+    width: 100%;
+    height: 100%;
+}
+
+.box2text {
+    position: absolute;
+    background-color: #c8f897;
+    margin-top: -75px;
+    width: 100px;
+    height: 65px;
+    font-size: small;
+    font-family: helvetica, arial, sans serif;
+    text-align: center;
+}
+
+.box2 img {
+    height: 100px;
+    width: 200px;
+
+}
+
+.box3 {
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 400px;
+    padding: 10px;
+    background-color: #c8f897;
+    transition: background-color 0.3s ease;
+}
+
+.box3:hover {
+    background-color: #83a263;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box3 a {
+    width: 100%;
+    height: 100%;
+}
+
+.box3text {
+    position: absolute;
+    background-color: #c8f897;
+    margin-top: -75px;
+    width: 100px;
+    height: 65px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #234500;
+    font-size: small;
+    text-align: center;
+}
+
+.box3 img {
+    height: 100px;
+    width: 200px;
+
+}
+
+.box4 {
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 630px;
+    margin-top: -150px;
+    padding: 10px;
+    background-color: #c8f897;
+    transition: background-color 0.3s ease;
+}
+
+.box4:hover {
+    background-color: #83a263;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box4 a {
+    width: 100%;
+    height: 100%;
+}
+
+.box4text {
+    position: absolute;
+    background-color: #c8f897;
+    margin-top: -75px;
+    width: 100px;
+    height: 65px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #234500;
+    font-size: small;
+    text-align: center;
+}
+
+.box4 img {
+    height: 100px;
+    width: 200px;
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contactinfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
