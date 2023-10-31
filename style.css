@@ -428,3 +428,16 @@ li a {
     }
 
 }
+
+@media and (max-width: 640px) {
+
+    #.main-box,
+    #.box1,
+    #.box2,
+    #.box3,
+    #.box4 {
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+}
